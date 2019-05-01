@@ -6,7 +6,7 @@
 def add(num1, num2):
     # Add two numbers and return sum
     z = num1 + num2
-    return z
+    return z # if we comment this line out each line below will print(None) because that is what's returned.
 
 def main():
     print(add(1, 1)) # return from function add replaces add(1, 1) with 2. print(2)
